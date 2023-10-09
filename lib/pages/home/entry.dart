@@ -1,3 +1,4 @@
+import 'package:bibishua/kit/card/card_home.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -10,6 +11,6 @@ class HomeScreen extends StatefulWidget {
 class _EntryState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Text('Home');
+    return const CardHome();
   }
 }
