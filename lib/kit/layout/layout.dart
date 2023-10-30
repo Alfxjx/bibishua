@@ -25,9 +25,12 @@ class _LayoutKitState extends State<LayoutKit> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: null,
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _pages,
+      body: Padding(
+        padding: const EdgeInsets.fromLTRB(16.0, 48.0, 16.0, 0.0),
+        child: IndexedStack(
+          index: _currentIndex,
+          children: _pages,
+        )
       ),
       bottomNavigationBar: BibiFooter(
         currentIndex: _currentIndex,

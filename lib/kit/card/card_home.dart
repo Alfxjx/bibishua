@@ -22,7 +22,7 @@ class _CardHomeState extends State<CardHome> {
           child: Column(children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
-              children: [TitleText(text: 'Lorem', size: 28)],
+              children: [TitleText(text: 'Lorem', size: 36)],
             )
           ]),
         ));

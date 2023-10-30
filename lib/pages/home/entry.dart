@@ -11,6 +11,13 @@ class HomeScreen extends StatefulWidget {
 class _EntryState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const CardHome();
+    return const Column(
+      children: [
+        Text('LOREM'),
+        Center(
+          child: CardHome(),
+        )
+      ],
+    );
   }
 }
